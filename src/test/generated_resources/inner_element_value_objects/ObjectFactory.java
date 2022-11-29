@@ -1,7 +1,7 @@
 
 package inner_element_value_objects;
 
-import javax.xml.bind.annotation.XmlRegistry;
+import jakarta.xml.bind.annotation.XmlRegistry;
 import inner_element_value_objects.impl.ArticleImpl;
 import inner_element_value_objects.impl.ArticlesCollectionsImpl;
 import inner_element_value_objects.impl.ArticlesImpl;

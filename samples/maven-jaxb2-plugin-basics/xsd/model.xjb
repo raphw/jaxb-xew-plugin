@@ -17,12 +17,12 @@
     <jaxb:bindings schemaLocation="model.xsd" node="/xsd:schema">
      	<jaxb:bindings node="xsd:complexType[@name='SampleData']">
             <annox:annotate>
-                <annox:annotate annox:class="javax.xml.bind.annotation.XmlRootElement" name="SampleData"/>
+                <annox:annotate annox:class="jakarta.xml.bind.annotation.XmlRootElement" name="SampleData"/>
             </annox:annotate>
         </jaxb:bindings>
         <jaxb:bindings node="xsd:complexType[@name='SampleDataList']">
             <annox:annotate>
-                <annox:annotate annox:class="javax.xml.bind.annotation.XmlRootElement" name="SampleDataList"/>
+                <annox:annotate annox:class="jakarta.xml.bind.annotation.XmlRootElement" name="SampleDataList"/>
             </annox:annotate>
         </jaxb:bindings>
 

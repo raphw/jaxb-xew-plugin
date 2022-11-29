@@ -44,18 +44,18 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import javax.xml.bind.JAXBElement;
-import javax.xml.bind.annotation.XmlAnyElement;
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlElementDecl;
-import javax.xml.bind.annotation.XmlElementRef;
-import javax.xml.bind.annotation.XmlElementRefs;
-import javax.xml.bind.annotation.XmlElementWrapper;
-import javax.xml.bind.annotation.XmlElements;
-import javax.xml.bind.annotation.XmlMixed;
-import javax.xml.bind.annotation.XmlSchema;
-import javax.xml.bind.annotation.XmlType;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
+import jakarta.xml.bind.JAXBElement;
+import jakarta.xml.bind.annotation.XmlAnyElement;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlElementDecl;
+import jakarta.xml.bind.annotation.XmlElementRef;
+import jakarta.xml.bind.annotation.XmlElementRefs;
+import jakarta.xml.bind.annotation.XmlElementWrapper;
+import jakarta.xml.bind.annotation.XmlElements;
+import jakarta.xml.bind.annotation.XmlMixed;
+import jakarta.xml.bind.annotation.XmlSchema;
+import jakarta.xml.bind.annotation.XmlType;
+import jakarta.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
 import javax.xml.namespace.QName;
 
 import com.sun.codemodel.JAnnotatable;
@@ -86,11 +86,11 @@ import com.sun.tools.xjc.outline.ClassOutline;
 import com.sun.tools.xjc.outline.FieldOutline;
 import com.sun.tools.xjc.outline.Outline;
 import com.sun.tools.xjc.reader.Ring;
-import com.sun.xml.bind.api.impl.NameConverter;
 import com.sun.xml.xsom.XSComponent;
 import com.sun.xml.xsom.XSDeclaration;
 
 import org.apache.commons.lang3.ObjectUtils;
+import org.glassfish.jaxb.core.api.impl.NameConverter;
 import org.jvnet.jaxb2_commons.util.CustomizationUtils;
 
 /**
